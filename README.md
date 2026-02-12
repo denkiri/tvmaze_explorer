@@ -8,6 +8,8 @@ A Flutter application for browsing and searching TV shows using the [TVMaze API]
 
 ## Screenshots
 
+## Mobile Screenshots
+
 <p align="center">
   <img src="screenshots/img.png" width="250" alt="Show List"/>
   &nbsp;&nbsp;
@@ -15,6 +17,15 @@ A Flutter application for browsing and searching TV shows using the [TVMaze API]
   &nbsp;&nbsp;
   <img src="screenshots/img_2.png" width="250" alt="Show Detail - Cast"/>
 </p>
+
+## Desktop Screenshots
+
+<p align="center">
+  <img src="screenshots/img_3.png" width="500" alt="Desktop App Screen 1"/>
+  &nbsp;&nbsp;
+  <img src="screenshots/img_4.png" width="500" alt="Desktop App Screen 2"/>
+</p>
+
 
 | Show List | Show Detail | Detail + Cast |
 |:-:|:-:|:-:|
