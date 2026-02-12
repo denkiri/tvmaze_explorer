@@ -1,15 +1,11 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
-import 'package:tvmaze_explorer/core/network/connectivity_interceptor.dart';
 
-//Provides a configured Dio instance for TVMaze API communication.
-// Timeouts: 5s connect, 15s receive
-// Includes connectivity check interceptor and logging interceptor in debug mode.
+// Provides a configured Dio instance for TVMaze API communication.
+// Timeouts: 5s connect, 15s receive.
+// Includes logging interceptor in debug mode.
 class DioClient {
   DioClient() : _dio = Dio(_baseOptions) {
-    // Fast no-internet detection — fails in ~100ms when offline.
-    _dio.interceptors.add(ConnectivityInterceptor());
-
     if (kDebugMode) {
       _dio.interceptors.add(
         LogInterceptor(
