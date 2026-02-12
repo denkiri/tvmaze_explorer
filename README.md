@@ -2,9 +2,23 @@
 
 A Flutter application for browsing and searching TV shows using the [TVMaze API](https://www.tvmaze.com/api).
 
+## Download
+
+📦 [Download APK](release/tvmaze-explorer.apk)
+
 ## Screenshots
 
-_Run the app to see the fully styled dark-themed interface._
+<p align="center">
+  <img src="screenshots/img.png" width="250" alt="Show List"/>
+  &nbsp;&nbsp;
+  <img src="screenshots/img_1.png" width="250" alt="Show Detail - Info"/>
+  &nbsp;&nbsp;
+  <img src="screenshots/img_2.png" width="250" alt="Show Detail - Cast"/>
+</p>
+
+| Show List | Show Detail | Detail + Cast |
+|:-:|:-:|:-:|
+| Paginated grid with ratings & favorites | Hero poster, summary, genres | Info cards, network & cast |
 
 ## Setup & Run
 
